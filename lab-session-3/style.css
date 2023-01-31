@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("bg1.jpg");
+    background-position: top center;
+    background-size: cover; 
+    background-repeat: no-repeat;  
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), transparent); 
+}
+.heading{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 50px 15px 15px;
+}
+.search-box{
+    padding: 10px;
+    width: 35%;
+    border-radius: 20px 5px 20px 5px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgba(110, 255, 6, 0.872);
+    background-color: rgba(255, 0, 0, 0.103);
+    color: aliceblue;
+    font-weight: bold;
+}
+.search-box:focus{
+    background-color: rgba(25, 0, 255, 0.379);
+    color: rgb(255, 255, 255);
+}
+section > *{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.city{
+    font-size: 40px;
+    font-weight: bold;
+    color: antiquewhite;
+    padding-top: 20px;
+}
+.date{
+    color: antiquewhite;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.temp{
+    color: antiquewhite;
+    text-align: center;
+    font-size: 90px;
+    font-weight: bold;
+    padding-top: 80px;
+}
+.climate{
+    color: antiquewhite;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 80px;
+}
+.max-min{
+    color: antiquewhite;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 10px;
+}
